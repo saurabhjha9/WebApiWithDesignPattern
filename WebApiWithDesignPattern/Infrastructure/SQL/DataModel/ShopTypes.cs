@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Model.DataModel
+namespace Infrastructure.SQL.DataModel
 {
-    public class ShopType
+    public class ShopTypes
     {
         public double ShopTypeID { get; set; }
         public double ShopTypeDesc { get; set; }
+        public bool IsActive { get; set; }
     }
 }

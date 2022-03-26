@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Model.DataModel
+namespace Infrastructure.SQL.DataModel
 {
-    public class User
+    public class Users
     {
         public double UserID { get;set; }
         public string UserName { get; set; }

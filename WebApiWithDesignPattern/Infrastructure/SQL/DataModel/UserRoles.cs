@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Model.DataModel
+namespace Infrastructure.SQL.DataModel
 {
-    public class UserRole
+    public class UserRoles
     {
         public double UserRoleID { get; set; }
         public string UserRoleDesc { get; set; }
+        public bool IsActive { get; set; }
     }
 }

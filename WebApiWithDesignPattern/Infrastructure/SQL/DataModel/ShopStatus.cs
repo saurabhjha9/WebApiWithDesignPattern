@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Model.DataModel
+namespace Infrastructure.SQL.DataModel
 {
     public class ShopStatus
     {
